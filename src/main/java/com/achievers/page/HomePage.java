@@ -35,6 +35,9 @@ public class HomePage {
 	    select = new Select(driver.findElement(By.name("branch_name")));
 	    select.selectByVisibleText("branch_name");
 	    
+	    System.out.println("mynameisvikas1");
+	    System.out.println("mynameisvikas2");
+	    
 	    driver.findElement(By.xpath("(//button[@type=\"submit\"])[2]")).click();
 	 	
 	}
